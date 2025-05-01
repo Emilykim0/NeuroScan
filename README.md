@@ -69,7 +69,6 @@ NeuroScan/
 | CNN_LSTM3 | 2 Conv1D + 2 BiLSTM + FC | 초기 Best |
 | CNN_LSTM_Hybrid | 전이학습 기반 CNN + BiLSTM | 초기 최고 성능 (Val Acc 0.8557) |
 | CNN_LSTM_Hybrid_Final | 간결한 CNN + BiLSTM (최종 전처리 최적화) | 최종 Best (Test Acc 90.27%) |
-| LConvNet | 2D CNN + LSTM 조합 (논문 기반) | Recall 우수 |
 
 ✅ 최종 채택 모델: **CNN_LSTM_Hybrid_Final**
 
@@ -80,7 +79,6 @@ NeuroScan/
 | 모델명 | Validation Accuracy | Test Accuracy | Test F1 Score |
 |:---|:---|:---|:---|
 | CNN_LSTM_Hybrid | 0.9088 | 0.8986 | 0.8991 |
-| LConvNet | 0.8806 | 0.8596 | 0.8692 |
 | CNN_LSTM_Hybrid_Final | 0.9031 | 0.9027 | 0.9050 |
 
 ---
@@ -153,7 +151,6 @@ streamlit run web_app.py
 | CNN_LSTM3 | 2 Conv1D + 2 BiLSTM + FC | 초기 Best |
 | CNN_LSTM_Hybrid | 전이학습 기반 CNN + BiLSTM | 초기 최고 성능 (Val Acc 0.8557) |
 | CNN_LSTM_Hybrid_Final | 간결한 CNN + BiLSTM (최종 전처리 최적화) | 최종 Best (Test Acc 90.27%) |
-| LConvNet | 2D CNN + LSTM 조합 (논문 기반) | Recall 우수 |
 
 ✅ 최종 채택 모델: **CNN_LSTM_Hybrid_Final**
 
@@ -181,7 +178,6 @@ streamlit run web_app.py
 | 모델명 | Validation Accuracy | Test Accuracy | Test F1 Score |
 |:---|:---|:---|:---|
 | CNN_LSTM_Hybrid | 0.9088 | 0.8986 | 0.8991 |
-| LConvNet | 0.8806 | 0.8596 | 0.8692 |
 | CNN_LSTM_Hybrid_Final | 0.9031 | 0.9027 | 0.9050 |
 
 ✅ 최종 채택 모델 기준:
